@@ -29,8 +29,11 @@ header{
     margin: auto;
     background-color: white;
 }
-.nav-bar>p{
+.header-text{
     width: 100vw !important;
+    background-color: #2F80ED;
+    height: 40px;
+    display: flex;
 }
 .vertical-line{
     border-left: 1px solid rgb(214, 212, 212);
@@ -41,10 +44,7 @@ header{
     color: black;
     text-decoration: none;
 }
-.header-text{
-    background-color: #2F80ED;
-    height: 40px;
-}
+
 .hero{
     width: 90vw;
     margin: auto;
@@ -169,8 +169,9 @@ header{
         flex-wrap: wrap;
         height: auto;
     }
-    .nav-bar>p{
+    .header-text{
         position: static;
+        width:100vw !important;
     }
     .features1{
         display: flex;
